@@ -34,6 +34,7 @@ build/
 
 # Custom ignores
 .env
-application.properties
-application.yml
 .metadata/
+
+# H2 file-based database (runtime data, not source code)
+data/
